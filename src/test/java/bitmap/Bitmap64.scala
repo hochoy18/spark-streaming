@@ -1,5 +1,7 @@
 package bitmap
+
 import org.roaringbitmap.longlong._
+
 /** Describe:
   * Created by IntelliJ IDEA.
   * Time: 16:17
@@ -10,12 +12,12 @@ import org.roaringbitmap.longlong._
 object Bitmap64 {
 
   def main(args: Array[String]): Unit = {
-    val r =  Roaring64NavigableMap.bitmapOf(1,2,100,300)
+    val r = Roaring64NavigableMap.bitmapOf(1, 2, 100, 300)
     r.addLong(1234)
     println(r.contains(1))
     println(r.contains(5))
     val i = r.getLongIterator
-    while (i.hasNext){
+    while (i.hasNext) {
       println(i.next())
     }
   }

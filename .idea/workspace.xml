@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2918cef-386f-407a-8187-57eedc112d7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hochoy/spark/common/Confs.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bitmap/Basic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bitmap/Bitmap64.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bitmap/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bitmap/Basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bitmap/Bitmap64.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bitmap/Bitmap64.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,53 +17,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/hochoy/spark/JodaTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="189">
+              <caret line="45" column="101" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="101" />
               <folding>
-                <element signature="n#properties#0;n#project#0;n#!!top" />
-                <element signature="n#build#0;n#project#0;n#!!top" />
-                <element signature="n#reporting#0;n#project#0;n#!!top" />
-                <element signature="n#pluginRepositories#0;n#project#0;n#!!top" />
-                <element signature="n#distributionManagement#0;n#project#0;n#!!top" />
+                <element signature="e#26#68#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/bitmap/Basic.java">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/hochoy/spark/common/Constants.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/bitmap/Bitmap64.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="315">
+              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/hochoy/spark/common/Utils.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="494">
+              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+              <folding>
+                <element signature="e#33#101#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/roaringbitmap/RoaringBitmap/0.7.36/RoaringBitmap-0.7.36.jar!/org/roaringbitmap/longlong/Roaring64NavigableMap.class">
+        <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.3/joda-time-2.9.3.jar!/org/joda/time/format/DateTimeFormatter.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="125" column="67" selection-start-line="125" selection-start-column="67" selection-end-line="125" selection-end-column="67" />
+            <state relative-caret-position="273">
+              <caret line="112" column="34" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -105,10 +92,13 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/hochoy/spark/common/package.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/hochoy/spark/common/Confs.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/hochoy/spark/bitmap/Basic.java" />
-        <option value="$PROJECT_DIR$/src/test/java/bitmap/Basic.java" />
-        <option value="$PROJECT_DIR$/src/test/java/bitmap/Bitmap64.scala" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/bitmap/Bitmap64.scala" />
+        <option value="$PROJECT_DIR$/src/test/java/bitmap/Basic.java" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/hochoy/spark/JodaTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/hochoy/spark/common/Constants.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/hochoy/spark/common/Utils.scala" />
       </list>
     </option>
   </component>
@@ -226,8 +216,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="558" />
-    <option name="y" value="50" />
+    <option name="x" value="395" />
+    <option name="y" value="39" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -257,22 +247,31 @@
               <item name="spark-streaming-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spark-streaming-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark-streaming-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spark-streaming-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark-streaming-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spark-streaming-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bitmap" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-streaming-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-streaming-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -283,7 +282,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547109893407" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547114092386" />
     <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -316,7 +315,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Bitmap64">
+  <component name="RunManager" selected="Application.JodaTest">
     <configuration name="Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bitmap.Basic" />
       <module name="spark-streaming-demo" />
@@ -343,6 +342,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JodaTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.hochoy.spark.JodaTest" />
+      <module name="spark-streaming-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hochoy.spark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OptimizeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hochoy.spark.utils.OptimizeUtil" />
       <module name="spark-streaming-demo" />
@@ -358,6 +370,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JodaTest" />
         <item itemvalue="Application.Bitmap64" />
         <item itemvalue="Application.Basic" />
         <item itemvalue="Application.OptimizeUtil" />
@@ -375,29 +388,29 @@
       <option name="presentableId" value="Default" />
       <updated>1547087819511</updated>
       <workItem from="1547087824751" duration="2827000" />
-      <workItem from="1547098661287" duration="10565000" />
+      <workItem from="1547098661287" duration="14720000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13392000" />
+    <option name="totallyTimeSpent" value="17547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1762481" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1762481" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32935154" />
+      <window_info anchor="bottom" id="Messages" weight="0.32764506" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32935154" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32935154" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.28327644" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35836178" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44367418" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -427,11 +440,11 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32935154" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32764506" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32935154" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32935154" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.6416382" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.35836178" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.44367418" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -444,7 +457,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.27609682" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.54236007" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="SciView" order="6" />
@@ -486,7 +499,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/test/java/bitmap/Bitmap64.scala</url>
-          <line>13</line>
+          <line>15</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -620,20 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/roaringbitmap/RoaringBitmap/0.7.36/RoaringBitmap-0.7.36.jar!/org/roaringbitmap/longlong/Roaring64NavigableMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="125" column="67" selection-start-line="125" selection-start-column="67" selection-end-line="125" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bitmap/Basic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -648,17 +647,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bitmap/Bitmap64.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/roaringbitmap/RoaringBitmap/0.7.36/RoaringBitmap-0.7.36.jar!/org/roaringbitmap/longlong/Roaring64NavigableMap.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="114">
+          <caret line="125" column="67" selection-start-line="125" selection-start-column="67" selection-end-line="125" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="336">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bitmap/Basic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bitmap/Bitmap64.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.3/joda-time-2.9.3.jar!/org/joda/time/Duration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.3/joda-time-2.9.3.jar!/org/joda/time/Days.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.3/joda-time-2.9.3.jar!/org/joda/time/Hours.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="25" column="80" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.3/joda-time-2.9.3.jar!/org/joda/time/ReadablePartial.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13-sources.jar!/org/codehaus/jackson/map/ext/JodaSerializers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="161" column="23" lean-forward="true" selection-start-line="161" selection-start-column="23" selection-end-line="161" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13-sources.jar!/org/codehaus/jackson/JsonGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="550" column="25" selection-start-line="550" selection-start-column="25" selection-end-line="550" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.3/joda-time-2.9.3.jar!/org/joda/time/DateTime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.3/joda-time-2.9.3.jar!/org/joda/time/base/BaseDateTime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/hochoy/spark/common/Constants.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/hochoy/spark/JodaTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="45" column="101" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="101" />
+          <folding>
+            <element signature="e#26#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.3/joda-time-2.9.3.jar!/org/joda/time/format/DateTimeFormatter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="112" column="34" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/hochoy/spark/common/Utils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding>
+            <element signature="e#33#101#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
