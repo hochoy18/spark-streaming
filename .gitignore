@@ -1,5 +1,7 @@
 *.iml
 .idea/
+.idea/*
+.idea/*.iml
 .cache-main
 .cache-tests
 .classpath
