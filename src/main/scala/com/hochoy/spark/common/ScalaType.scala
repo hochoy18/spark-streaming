@@ -23,4 +23,14 @@ object ScalaType {
     */
   type HBaseKeyWithTab = (String,String,String,String)
 
+  /**
+    * (qualifier, value)
+    */
+  type HBaseQualifierValue = (String,String)
+  /**
+    * (qualifier,values)
+    */
+  type HBaseQualifierValueLong = (String,Long)
+
+
 }
