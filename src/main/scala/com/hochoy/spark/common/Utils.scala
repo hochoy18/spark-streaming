@@ -1,5 +1,8 @@
 package com.hochoy.spark.common
 
+import java.text.SimpleDateFormat
+import java.util.Date
+
 import org.apache.hadoop.hbase.exceptions.IllegalArgumentIOException
 import org.joda.time.{DateTime, Hours}
 import org.joda.time.format.DateTimeFormat
@@ -38,5 +41,11 @@ object Utils {
       println(e1)
       None
   }).nonEmpty
+
+  def getNowTime :String={
+    val now =new Date
+    val date = new SimpleDateFormat(Constants.DEFAULT_TIME_FORMAT).format(now)
+    date
+  }
 
 }

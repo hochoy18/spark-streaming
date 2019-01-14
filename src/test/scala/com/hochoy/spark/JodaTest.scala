@@ -1,6 +1,9 @@
 package com.hochoy.spark
 
-import com.hochoy.spark.common.Utils
+import java.text.SimpleDateFormat
+import java.util.Date
+
+import com.hochoy.spark.common.{Constants, Utils}
 import org.joda.time.format.DateTimeFormat
 import org.joda.time.{DateTime, Days}
 import org.scalatest.FunSuite
@@ -80,5 +83,11 @@ class JodaTest extends FunSuite {
     val d = Utils.dateIsValid("2018-12-12 12:12231")
     println("dd   "+d)
   }
-
+  test("getNowTime"){
+   println(Utils.getNowTime)
+  }
+import com.hochoy.spark.db._
+  test("packageTest"){
+    packageTest("hello ")
+  }
 }
