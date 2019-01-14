@@ -1,7 +1,9 @@
 package com.hochoy.spark
 
+import com.hochoy.spark.common.Utils
 import org.joda.time.format.DateTimeFormat
 import org.joda.time.{DateTime, Days}
+import org.scalatest.FunSuite
 
 /** Describe: the usages of joda-time
   * https://ylq365.iteye.com/blog/1769680
@@ -12,13 +14,15 @@ import org.joda.time.{DateTime, Days}
   * @author hochoy <hochoy18@sina.com> 
   * @Version V1.0.0
   */
-object JodaTest {
+class JodaTest extends FunSuite {
 
-  def main(args: Array[String]): Unit = {
-    joda_time_test
-    dateCompare
-    datetimeOperation
-  }
+//  def main(args: Array[String]): Unit = {
+//    println(dateParse("2018-12-26 03:27"))
+//    sys.exit(1)
+//    joda_time_test
+//    dateCompare
+//    datetimeOperation
+//  }
 
   def joda_time_test(): Unit = {
     val dt = new DateTime(2019, 1, 10, 17, 7, 0, 0)
@@ -48,7 +52,7 @@ object JodaTest {
     println("dateCompare   " + days)
   }
 
-  def datetimeOperation :Unit={
+  def datetimeOperation: Unit = {
     var datetime = DateTimeFormat.forPattern("yyyy-MM-dd HH:mm:ss").parseDateTime("2018-12-26 03:27:39")
     println(datetime)
     datetime = datetime
@@ -57,6 +61,24 @@ object JodaTest {
       .plusYears(2)
       .minusWeeks(1)
     println(datetime)
+  }
+
+  def dateParse(date1: String): Boolean = {
+    val date = {
+      try {
+        DateTimeFormat.forPattern("yyyy-MM-dd HH:mm:ss").parseDateTime(date1).toString
+      } catch {
+        case e: Exception ⇒ println(e); null
+      }
+
+    }
+    println(s"date ...   ${date}")
+    date == null
+  }
+
+  test("dateIsValid"){
+    val d = Utils.dateIsValid("2018-12-12 12:12231")
+    println("dd   "+d)
   }
 
 }
