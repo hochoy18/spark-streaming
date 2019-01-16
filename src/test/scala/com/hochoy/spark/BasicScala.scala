@@ -1,5 +1,6 @@
 package com.hochoy.spark
 
+import com.hochoy.spark.UserRepository.{findById, findFNameMatch}
 import org.scalatest.FunSuite
 import com.hochoy.spark.hadoop._
 
@@ -26,11 +27,37 @@ class BasicScala extends FunSuite {
   test("ip location") {
   }
 
-
-  test("option test") {
-
+  test("option test for"){
+    val map = Map("France"→"Paris","Japan"→"Tokyo","China"→"Beijing")
+    for(x← map){
+      println(x._1  ,  x._2)
+    }
   }
 
+  test("option test") {
+    val capitals = Map("France"→"Paris","Japan"→"Tokyo","China"→"Beijing")
+    val cap = capitals get "France" orElse Option("Nanjing")
+    val c = cap match {
+      case Some(cap) ⇒ cap
+      case None ⇒ "Beijing"
+    }
+    println(cap)
+    println(c)
+  }
+
+  test(s"User for option test") {
+    val user = User(99999, "Johanna", "Doe", 30, true)
+    println(Try(10 / 0))
+    println("....  ",findFNameMatch(2))
+
+
+    println(findById(1).getOrElse(user))
+    println(findById(1).isDefined)
+    println(findById(2).getOrElse(user))
+    println(findById(3).getOrElse(user))
+    println(findById(3).isDefined)
+    println(findById(1).nonEmpty)
+  }
 }
 
 case class User(val id: Int, val fName: String,val lName: String, val age: Int, val gender: Boolean)
@@ -49,17 +76,5 @@ object UserRepository {
     }
   }
 
-  def main(args: Array[String]): Unit = {
-    val user = User(99999, "Johanna", "Doe", 30, true)
-    println(Try(10 / 0))
-    println("....  ",findFNameMatch(2))
 
-
-    println(findById(1).getOrElse(user))
-    println(findById(1).isDefined)
-    println(findById(2).getOrElse(user))
-    println(findById(3).getOrElse(user))
-    println(findById(3).isDefined)
-    println(findById(1).nonEmpty)
-  }
 }
