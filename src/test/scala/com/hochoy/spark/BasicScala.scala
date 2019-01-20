@@ -58,6 +58,14 @@ class BasicScala extends FunSuite {
     println(findById(3).isDefined)
     println(findById(1).nonEmpty)
   }
+  test("json test "){
+    import org.json4s.jackson.JsonMethods._
+    val s1 = """{"appkey": "df5bb2206def11e8a8e044a8422584eb", "devicename": "iPhone", "activities": "AboutviewController|LoginviewController|ChatviewController|BlogviewControllerGroup|FileviewController|CameraviewController|ChatviewController|RegistviewController|FileviewController|CameraviewController|MainviewController|MainviewController|ChatviewController", "start_millis": "2018-10-11 15:10:36", "session_id": "06db512c343e43c89336d617cecc975f", "version": "2.2", "deviceid": "AA-BB-CC:DD:EE:FF-615-232", "duration": "574000", "end_millis": "2018-10-11 15:20:10", "sd": "64000|52000|41000|7000|47000|34000|66000|18000|63000|21000|59000|47000|55000"}"""
+    val v = parse(s1).merge(parse("""{"nihao":"hello"}"""))
+    println(v)
+    println(v.values)
+
+  }
 }
 
 case class User(val id: Int, val fName: String,val lName: String, val age: Int, val gender: Boolean)

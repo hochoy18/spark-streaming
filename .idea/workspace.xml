@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2918cef-386f-407a-8187-57eedc112d7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hochoy/spark/data/appinfo.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hochoy/spark/data/cd.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hochoy/spark/data/error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hochoy/spark/data/event.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hochoy/spark/data/usinglog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/com/hochoy/spark/BasicScala.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/hochoy/spark/BasicScala.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,8 +17,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/hochoy/spark/BasicScala.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="137">
+              <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-jackson_2.11/3.2.11/json4s-jackson_2.11-3.2.11-sources.jar!/org/json4s/jackson/JsonMethods.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-core_2.11/3.2.11/json4s-core_2.11-3.2.11-sources.jar!/org/json4s/JsonMethods.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -32,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/hochoy/spark/db/DBData.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="273">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#29#72#0" expanded="true" />
               </folding>
@@ -43,7 +55,20 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/hochoy/spark/data/usinglog.log">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/hochoy/spark/common/JSONUtil.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="39" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -131,6 +156,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/hochoy/spark/data/cd.log" />
         <option value="$PROJECT_DIR$/src/main/scala/com/hochoy/spark/data/error.log" />
         <option value="$PROJECT_DIR$/src/main/scala/com/hochoy/spark/common/Segment.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/hochoy/spark/common/JSONUtil.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/hochoy/spark/BasicScala.scala" />
       </list>
     </option>
@@ -177,6 +203,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,14 +280,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547607430643" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547952221694" />
     <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -294,20 +320,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.BasicScala.option test for">
-    <configuration name="UserRepository" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.hochoy.spark.UserRepository" />
-      <module name="spark-streaming-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hochoy.spark.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.BasicScala.json test">
     <configuration name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
       <module name="spark-streaming-demo" />
       <setting name="vmparams4" value="-Djline.terminal=NONE" />
@@ -331,6 +344,24 @@
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.hochoy.spark.BasicScala" />
       <setting name="testName" value="User for option test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicScala.json test" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="spark-streaming-demo" />
+      <setting name="path" value="com.hochoy.spark.BasicScala" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.hochoy.spark.BasicScala" />
+      <setting name="testName" value="json test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -373,11 +404,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.BasicScala.json test" />
         <item itemvalue="ScalaTest.BasicScala.option test for" />
         <item itemvalue="Scala Console.Scala Console" />
         <item itemvalue="ScalaTest.BasicScala.option test" />
         <item itemvalue="ScalaTest.BasicScala.User for option test" />
-        <item itemvalue="Application.UserRepository" />
       </list>
     </recent_temporary>
   </component>
@@ -394,19 +425,11 @@
       <workItem from="1547087824751" duration="2827000" />
       <workItem from="1547098661287" duration="14720000" />
       <workItem from="1547601033828" duration="3647000" />
+      <workItem from="1547949912867" duration="2293000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BasicScala_applydemo - 2019.01.14 at 17h 49m 59s.xml">
-      <configuration name="BasicScala.applydemo" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="BasicScala_applydemo - 2019.01.14 at 17h 50m 17s.xml">
-      <configuration name="BasicScala.applydemo" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="JodaTest_packageTest - 2019.01.14 at 18h 02m 55s.xml">
-      <configuration name="JodaTest.packageTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="JodaTest_packageTest - 2019.01.14 at 19h 02m 55s.xml">
       <configuration name="JodaTest.packageTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -428,15 +451,23 @@
     <history-entry file="BasicScala_option_test_for - 2019.01.15 at 15h 46m 24s.xml">
       <configuration name="BasicScala.option test for" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="BasicScala_json_test - 2019.01.20 at 10h 40m 26s.xml">
+      <configuration name="BasicScala.json test" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BasicScala_json_test - 2019.01.20 at 10h 41m 23s.xml">
+      <configuration name="BasicScala.json test" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BasicScala_json_test - 2019.01.20 at 10h 42m 23s.xml">
+      <configuration name="BasicScala.json test" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40443000" />
+    <option name="totallyTimeSpent" value="42736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22390318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22692889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -446,7 +477,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32764506" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32935154" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49924356" weight="1.0" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49924356" visible="true" weight="0.5802048" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49924356" weight="0.6211604" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -558,33 +589,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="957" selection-start-line="957" selection-end-line="957" />
-          <folding>
-            <element signature="e#36459#36460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hochoy/spark/utils/OptimizeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hochoy/spark/objects/ThreadSafeSDF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/hochoy/spark/common/package.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hochoy/spark/common/Formatter.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -877,8 +881,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/hochoy/spark/data/usinglog.log">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/hochoy/spark/data/appinfo.log">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scalatest/scalatest_2.11/2.2.1/scalatest_2.11-2.2.1.jar!/org/scalatest/FunSuiteLike.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/hochoy/spark/common/Segment.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/hochoy/spark/db/DBData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#29#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/hochoy/spark/data/event.log">
       <provider selected="true" editor-type-id="text-editor">
@@ -887,20 +909,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/hochoy/spark/data/appinfo.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/hochoy/spark/data/cd.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/scalatest/scalatest_2.11/2.2.1/scalatest_2.11-2.2.1.jar!/org/scalatest/FunSuiteLike.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -911,27 +923,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/hochoy/spark/common/Segment.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/hochoy/spark/data/usinglog.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="147">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/hochoy/spark/db/DBData.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/hochoy/spark/common/JSONUtil.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#29#72#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-core_2.11/3.2.11/json4s-core_2.11-3.2.11-sources.jar!/org/json4s/JsonMethods.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-jackson_2.11/3.2.11/json4s-jackson_2.11-3.2.11-sources.jar!/org/json4s/jackson/JsonMethods.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/hochoy/spark/BasicScala.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="137">
+          <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
         </state>
       </provider>
     </entry>
