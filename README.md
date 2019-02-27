@@ -1,1 +1,1 @@
-#  spark-streaming-demo
+#  spark-streaming
