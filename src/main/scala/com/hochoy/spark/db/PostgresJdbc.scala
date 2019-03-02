@@ -20,7 +20,7 @@ object PostgresJdbc {
   def main(args: Array[String]) {
     //classOf[org.postgresql.Driver]
 
-    val conn = getConn(conn, userName, pwd)
+    val conn = getConn(conn_str, userName, pwd)
     try {
       // Configure to be Read Only
       val statement = conn.createStatement(ResultSet.TYPE_FORWARD_ONLY, ResultSet.CONCUR_READ_ONLY)

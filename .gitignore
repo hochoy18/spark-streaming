@@ -2,8 +2,6 @@
 .idea/
 .idea/*
 .idea/*.iml
-.idea/workspace.xml
-.idea/workspace.xml
 .cache-main
 .cache-tests
 .classpath
@@ -14,4 +12,3 @@ target/
 logs/
 conf.local/
 deploy.sh
-.idea/workspace.xml
