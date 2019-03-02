@@ -1,4 +1,4 @@
-package bitmap;
+package com.hochoy.spark;
 
 import org.roaringbitmap.RoaringBitmap;
 

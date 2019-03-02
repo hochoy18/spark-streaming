@@ -1,4 +1,4 @@
-package bitmap
+package com.hochoy.spark.bitmap
 
 import org.roaringbitmap.longlong._
 
